@@ -1,3 +1,12 @@
+"""
+-----------------------------------------------------------------------
+PROJETO DE REDES - SERVIDOR (BACKEND)
+Tema: Keylogger Cliente-Servidor com IPv6
+Grupo: 6
+Descrição: Recebe conexões TCP IPv6 e exibe logs de teclas em tempo real.
+-----------------------------------------------------------------------
+"""
+
 import socket
 import threading
 import tkinter as tk
