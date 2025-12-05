@@ -1,12 +1,3 @@
-"""
------------------------------------------------------------------------
-PROJETO DE REDES - CLIENTE (FRONTEND)
-Tema: Keylogger Cliente-Servidor com IPv6
-Grupo: 6
-Descrição: Simula navegador, captura teclas (Hook) e envia via Socket IPv6.
------------------------------------------------------------------------
-"""
-
 import socket
 import threading
 import tkinter as tk
@@ -73,4 +64,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ClientApp(root)
     root.mainloop()
-    
